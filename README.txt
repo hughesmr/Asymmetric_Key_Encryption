@@ -1,0 +1,2 @@
+To compile the code just use the terminal to go to the directory where crypto2.c is. Then type "gcc -std=c99 crypto2.c -o runC", that will compile it. To run just type "./runC" and then it will run. To use enter the option to either enter the key, encrypt or decrypt. Note that when running K to generate keys that it will ask for a seed, however this seed value isn't used since arc4ranom() doesn't take a seed. What arc4random does do is find very random numbers and it finds one that is prime very quickly (as opposed to random()).  
+
